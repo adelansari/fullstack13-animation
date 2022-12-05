@@ -25,3 +25,5 @@ index.html (wrap codes inside a div). Practice the animation with these features
 
 - rotating in different axes
 - changing color
+
+Will change this soon.
