@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+#music-note-01,#music-note-02,#music-note-03{
+    animation: music 2s infinite linear;
+    position: absolute;
+    transform-origin:50% 40%;
+    /* transform-box: fill-box; */
+
+}
+
+@keyframes music {
+    from{
+        transform: scale( 0 );
+    }
+    to{
+        transform: scale( 1 );
+    }
+}
