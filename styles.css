@@ -20,6 +20,7 @@ body {
 
 #head {
     animation: head 2s ease-in-out infinite alternate;
+    transform-origin:bottom;
     transform-box: fill-box;
 
 }
@@ -28,6 +29,11 @@ body {
     animation: foot 1s ease-in-out infinite alternate;
     transform-origin:right;
     transform-box: fill-box;
+}
+
+#everything-else > #guitar-base{
+    animation: guitar 2s ease-in-out infinite alternate;
+    /* transform-origin:50% 40%; */
 }
 
 @keyframes music {
@@ -53,7 +59,7 @@ body {
         transform: rotateZ( 10deg );
     }
     to{
-        transform: rotateZ( 15deg );
+        transform: rotateZ( 20deg );
     }
 }
 
@@ -66,4 +72,15 @@ body {
     }
 }
 
+@keyframes guitar {
+    0%{
+        fill: #304F59;
+    }
+    50%{
+        fill: yellow;
+    }
+    100%{
+        fill:red;
+    }
+}
 

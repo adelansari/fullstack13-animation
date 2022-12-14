@@ -1,10 +1,24 @@
-# Welcome to CSS Animation
+# CSS Animation
 
-You can choose to only make SVG and animation or integrate this assignment with your previous
-Accessibility assignment. If you want animation to be a part of your Accessibility assignment,
-you can copy all the codes from another file and paste it here.
+![HTML5](https://img.shields.io/badge/HTML-v.5-E34F26?logo=HTML5)
+![css](https://img.shields.io/badge/css-1572B6?logo=CSS3)
 
-PS: keep your styling simple
+Making an animation out of svg image using html and css.
+
+Check out my website here: https://adelansari.github.io/fullstack13-animation/
+
+
+## Project structure
+
+```
+📦.
+ ┣ 📜index.html
+ ┣ 📜README.md
+ ┣ 📜styles.css
+ ┗ 📜undraw_guitar.svg
+```
+
+
 
 ## Instructions
 
