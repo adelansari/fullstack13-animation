@@ -7,37 +7,40 @@ Making an animation out of svg image using html and css.
 
 Check out my website here: https://adelansari.github.io/fullstack13-animation/
 
+## Table of content
+  - [Technologies](#technologies)
+  - [Project structure](#project-structure)
+  - [Getting Started](#getting-started)
+  - [Result](#result)
+  - [Resources](#resources)
+
+
+## Technologies
+
+- HTML5
+- css
 
 ## Project structure
 
 ```
 📦.
+ ┣ 📜css-animation-result.gif
  ┣ 📜index.html
  ┣ 📜README.md
  ┣ 📜styles.css
  ┗ 📜undraw_guitar.svg
 ```
 
+## Getting Started
 
+- Clone the repository: `git clone`
+- Open index.html with "Live Server".
 
-## Instructions
+## Result
+<p align="center">
+   <img src="css-animation-result.gif" alt="css-result-overview"/>
+</p>
 
-1. Fork and clone the project
-
-2. Go to website [undraw.co](https://undraw.co/illustrations), or any free SVG open-source of
-you choice. Select and download a picture to work with animation
-
-3. Go to [figma.com](https://www.figma.com/). Bring the SVG file that you have downloaded here.
-Change the colors to your preferences. Decide which part to animate and rename it to be unique.
-If you decide to animate serveral vectors as a group (for example: a person is a group of his head, body, arms, legs,...), you should group those vectors together, and rename the group.
-
-4. Download the Figma design. Note: Before clicking 'Export', remember to change file type to 'SVG'
-and select the option 'Include id attribute'.
-
-5. Paste the Figma SVG file to your working folder. Coppy all the codes inside svg file to
-index.html (wrap codes inside a div). Practice the animation with these features:
-
-- rotating in different axes
-- changing color
-
-Will change this soon.
+## Resources
+-  [undraw.co](https://undraw.co/illustrations) to obtain free SVG images.
+-  [figma.com](https://www.figma.com/). To edit the SVG, rename and group the parts I want to animate.
