@@ -9,11 +9,25 @@ body {
 }
 
 #music-note-01,#music-note-02,#music-note-03{
-    animation: music 2s infinite linear;
-    position: absolute;
+    animation: music 1s infinite linear;
     transform-origin:50% 40%;
-    /* transform-box: fill-box; */
+}
 
+#left-arm{
+    animation: arm 1s ease-in-out infinite alternate;
+    transform-box: fill-box;
+}
+
+#head {
+    animation: head 2s ease-in-out infinite alternate;
+    transform-box: fill-box;
+
+}
+
+#right-foot > #right-foot-shoe{
+    animation: foot 1s ease-in-out infinite alternate;
+    transform-origin:right;
+    transform-box: fill-box;
 }
 
 @keyframes music {
@@ -24,3 +38,32 @@ body {
         transform: scale( 1 );
     }
 }
+
+@keyframes arm {
+    from{
+        transform: rotateZ( 0deg );
+    }
+    to{
+        transform: rotateZ( 20deg );
+    }
+}
+
+@keyframes head {
+    from{
+        transform: rotateZ( 10deg );
+    }
+    to{
+        transform: rotateZ( 15deg );
+    }
+}
+
+@keyframes foot {
+    from{
+        transform: rotateZ( 0deg );
+    }
+    to{
+        transform: rotateZ( 10deg );
+    }
+}
+
+
